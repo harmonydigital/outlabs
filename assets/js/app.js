@@ -21,11 +21,17 @@ if(app){
             <div>
 
                 <h2>
-                     Clique no botão abaixo e acesse agora!
+                clique no botão abaixo e receba o seu acesso imediato a comunidade vip agora no telegram
 
                 </h2>
-            <a class="btn app" href="https://t.me/ComunidadeCassinoMilionario">quero entrar na </br> comunidade vip agora</a>
-            </div>
+                
+                <a href="https://t.me/ComunidadeCassinoMilionario" class="btn neon-button">quero entrar na </br> comunidade vip agora</a>
+                <div class='telegram'>
+                     <img style="
+                     width: 80px;
+                 " src='assets/img/telegram.png'>
+                </div>
+                </div>
 
         </main>
         <footer>
