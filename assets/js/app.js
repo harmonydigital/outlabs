@@ -18,20 +18,52 @@ if(app){
                  <img src='assets/img/cover-mb.png'>
             </div>
 
-            <div>
-
+            <div> 
                 <h2>
                 clique no botão abaixo e receba o seu acesso imediato a comunidade vip agora no telegram
 
                 </h2>
                 
-                <a href="https://t.me/ComunidadeCassinoMilionario" class="btn neon-button">quero entrar na </br> comunidade vip agora</a>
-                <div class='telegram'>
-                     <img style="
-                     width: 80px;
-                 " src='assets/img/telegram.png'>
+                    <a href="https://t.me/ComunidadeCassinoMilionario" class="btn neon-button">acessar comunidade vip telegram</a>
+                        <div class='telegram'>
+                            <img style="
+                            width: 80px;
+                        " src='assets/img/telegram.png'>
+                 
                 </div>
+             </div>
+
+
+
+
+
+            <div class='section-half'> 
+                <div>
+                   <h3>oque você vai receber?</h3>
+                </div> 
+            </div>
+
+            <div>
+                <h4> Sinais gratuitamente todos os dias </h4>
+            </div>
+
+            <div class='display'>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src='assets/img/img1.jpeg'></div>
+                <div class="swiper-slide"> <img src='assets/img/img2.jpeg'></div>
+                <div class="swiper-slide"> <img src='assets/img/img3.jpeg'></div>
+                <div class="swiper-slide"> <img src='assets/img/img4.jpeg'></div>
+                
                 </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+
+
+
+
+
 
         </main>
         <footer>
@@ -39,3 +71,15 @@ if(app){
         </footer>
     `
 }
+
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 5,
+    loop:true,
+    
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
