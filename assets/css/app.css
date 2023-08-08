@@ -57,11 +57,10 @@ h2 {
     margin: 0 auto
 }
 .content-text {
-    margin: 80px 0 25px 2%;
+    margin: 80px 0 25px 10%;
     padding: 0;
-    width: 100%; 
-    
-}
+    width: 100%;
+    width: 90%;}
 span.flag-green:before {
     content: '';
     background: #2ECC70;
