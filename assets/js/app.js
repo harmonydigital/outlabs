@@ -10,12 +10,12 @@ if(app){
         
             <div class='flex-container'>
                 <div class="content-text">
-                    <h1>
+                    <h1 class="animate__animated animate__fadeIn ">
                         grupo VIP de <span class="line-price">r$97</span> por <span class='flag-green'>zero</span> até hoje às 23:59
                     </h1>
                 </div>
 
-                <div class='cover'>
+                <div class='cover  animate__animated animate__fadeIn '>
                     <img src='assets/img/cover-mb.png'>
                 </div>
 
@@ -23,10 +23,10 @@ if(app){
 
 
             <div class='container'> 
-                <h2>
+                <h2 class=' animate__animated animate__backInRight'>
                 Clique no botão abaixo e receba seu acesso 100% grátuito a comunidade vip no telegram
                 </h2>
-                <a href="https://t.me/ComunidadeCassinoMilionario">
+                <a class=' animate__animated animate__pulse' href="https://t.me/ComunidadeCassinoMilionario">
                     <span></span>
                     <span></span>
                     <span></span>
