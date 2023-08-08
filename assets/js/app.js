@@ -24,8 +24,7 @@ if(app){
 
             <div class='container'> 
                 <h2>
-                clique no botão abaixo e receba o seu acesso imediato a comunidade vip agora no telegram
-
+                Clique no botão abaixo e receba seu acesso 100% grátuito a comunidade vip no telegram
                 </h2>
                 <a href="https://t.me/ComunidadeCassinoMilionario">
                     <span></span>
@@ -47,8 +46,7 @@ if(app){
             <div class='section-half'> 
                 <div>
                    <h3>oque você vai receber?</h3>
-                    <h4> Sinais gratuitamente todos os dias </h4>
-
+                    <h4> Sinais gratuitamente todos os dias </h4> 
                 </div> 
             </div>
 
@@ -66,6 +64,8 @@ if(app){
                 <div class="swiper-slide"> <img src='assets/img/img4.jpeg'></div>
                 
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
             </div>
@@ -82,33 +82,3 @@ if(app){
     `
 }
 
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
-    spaceBetween: 5,
-    loop:true,
-    
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-
-    autoplay: {
-        delay: 1000,
-      },
-
-    breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 50,
-        },
-      },
-  });
