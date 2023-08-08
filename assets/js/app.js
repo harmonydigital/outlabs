@@ -18,19 +18,22 @@ if(app){
                  <img src='assets/img/cover-mb.png'>
             </div>
 
-            <div> 
+            <div class='container'> 
                 <h2>
                 clique no botão abaixo e receba o seu acesso imediato a comunidade vip agora no telegram
 
                 </h2>
-                
-                    <a href="https://t.me/ComunidadeCassinoMilionario" class="btn neon-button">acessar comunidade vip telegram</a>
-                        <div class='telegram'>
-                            <img style="
-                            width: 80px;
-                        " src='assets/img/telegram.png'>
+                <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                acessar comunidade vip telegram
+              </a>
+                          <div class='telegram'>
+                            <img style="  width: 80px;  " src='assets/img/telegram.png'>
                  
-                </div>
+                        </div>
              </div>
 
 
