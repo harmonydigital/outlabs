@@ -46,7 +46,7 @@ if(app){
             <div class='section-half'> 
                 <div>
                    <h3>oque você vai receber?</h3>
-                    <h4> Sinais gratuitamente todos os dias </h4> 
+                    <h4> Sinais ao vivo todos os dias </h4> 
                 </div> 
             </div>
 
@@ -77,7 +77,7 @@ if(app){
 
         </main>
         <footer>
-             Copyright 2023® - Manauara  Termos de Uso | Políticas de Privacidade
+             Copyright 2023® - Manauara 
         </footer>
     `
 }
