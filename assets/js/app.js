@@ -8,32 +8,36 @@ if(app){
        
         <main>  
         
-            <div class="content-text">
-                <h1>
-                    grupo VIP de r$97 por zer0 até hoje as 23:59
-                </h1>
+            <div class='flex-container'>
+                <div class="content-text">
+                    <h1>
+                        grupo VIP de <span class="line-price">r$97</span> por zer0 até hoje as 23:59
+                    </h1>
+                </div>
+
+                <div class='cover'>
+                    <img src='assets/img/cover-mb.png'>
+                </div>
+
             </div>
 
-            <div class='cover'>
-                 <img src='assets/img/cover-mb.png'>
-            </div>
 
             <div class='container'> 
                 <h2>
                 clique no botão abaixo e receba o seu acesso imediato a comunidade vip agora no telegram
 
                 </h2>
-                <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                acessar comunidade vip telegram
-              </a>
-                          <div class='telegram'>
-                            <img style="  width: 80px;  " src='assets/img/telegram.png'>
-                 
-                        </div>
+                <a href="https://t.me/ComunidadeCassinoMilionario">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    acessar comunidade vip telegram
+                </a>
+                <div class='telegram'>
+                    <img style="  width: 80px;  " src='assets/img/telegram.png'>
+        
+                </div>
              </div>
 
 
@@ -85,4 +89,23 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+
+    autoplay: {
+        delay: 1000,
+      },
+
+    breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
   });
