@@ -11,7 +11,7 @@ if(app){
             <div class='flex-container'>
                 <div class="content-text">
                     <h1>
-                        grupo VIP de <span class="line-price">r$97</span> por zer0 até hoje as 23:59
+                        grupo VIP de <span class="line-price">r$97</span> por <span class='flag-green'>zero</span> até hoje às 23:59
                     </h1>
                 </div>
 
@@ -47,14 +47,17 @@ if(app){
             <div class='section-half'> 
                 <div>
                    <h3>oque você vai receber?</h3>
+                    <h4> Sinais gratuitamente todos os dias </h4>
+
                 </div> 
             </div>
 
-            <div>
-                <h4> Sinais gratuitamente todos os dias </h4>
-            </div>
+            
 
             <div class='display'>
+            <div>
+                <h4> Resultado de alguns alunos da comunidade vip</h4>
+            </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                 <div class="swiper-slide"> <img src='assets/img/img1.jpeg'></div>

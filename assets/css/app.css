@@ -57,10 +57,18 @@ h2 {
     margin: 0 auto
 }
 .content-text {
-
-    margin: 55px auto 35px;
-    padding: 0 10px;
-    width: 75%;
+    margin: 80px auto 25px;
+    padding: 0;
+    width: 100%; 
+}
+span.flag-green:before {
+    content: '';
+    background: #2ECC70;
+    width: 100px;
+    height: 41px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
 }
 span.line-price {
     position: relative;
@@ -91,13 +99,13 @@ span.line-price:before {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    height: 200px;
+    height: 130px;
     margin: 0;
-    padding: 0;
-}
-.section-half{
+    padding: 85px 0;
     background-image: url(../img/half-section.png);
+    background-repeat:no-repeat ;
 }
+ 
 .section-half h3 {
     font-size: 2rem;
 }
@@ -108,7 +116,12 @@ h4 {
     margin: 30px auto;
 } 
    
-   
+.section-half h4 {
+    font-size: 1.1rem;
+    width: 80%;
+    font-weight: 300;
+}
+
    
   footer {
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +150,15 @@ h4 {
 }
 
 @media(min-width:768px){
-    
+    body {
+      
+        background-image: url(../img/bg-desk.png);
+
+        background-position: 0px -271px;
+        background-size: 100%;
+        background-size: 100%;
+        
+    }
     h2{
         max-width: 300px;
     }
@@ -172,13 +193,18 @@ h4 {
     .section-half{
         background-image: url(../img/bg-desk.png);
         background-size: cover;
-        background-position: 0 -81px;
+        background-position: 0 -202px;
     display: flex;
     justify-content: center;
  
     height: 290px;
     margin-bottom: -80px;
     }  
+
+    .section-half h4 {
+        font-size: 1.1rem;
+        width: 80%;
+    }
     
     .section-half div {margin-top:40px ;}
     h1:after {
@@ -200,7 +226,10 @@ h4 {
 
 @media (min-width:1200px){
     .display {
-        padding: 40px 190px;
+        padding: 0px 190px;
+    }
+    .display h4 {
+        margin: 0 auto 5%;
     }
     .content-text {
         margin: 55px 10px 35px;
@@ -212,23 +241,30 @@ h4 {
     }
     .container {
         width: 80%;
-        margin: 8% auto;
+        margin: 7% auto;
     }
     .cover img {
         width: 250px;
     }
     h2 {
     max-width: 470px;
-}
-h1:after {
- 
-    right: 23%;
-    top: 18%;
-    opacity: 0.6;
+    }
+    h1:after {
+    
+        right: 23%;
+        top: 18%;
+        opacity: 0.6;
+    
+    }
+    .section-half div {
+        margin-top: 0;
+    }
+    .section-half h4 {
    
-}
-.flex-container {
- 
-    margin: 95px auto 0;
-}
+        margin: 30px auto;
+    }
+    .flex-container {
+    
+        margin: 4% auto 0;
+    }
 }
